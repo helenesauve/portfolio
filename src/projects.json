@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "This website",
+    "image": "",
+    "description": "A professional portfolio highlighting key skills and interests.",
+    "skills": "React.js, Javascript, CSS, Bootstrap",
+    "github": "#"
+  },
+  {
+    "id": 2,
+    "name": "README Generator",
+    "image": "",
+    "description": "A command-line application that uses Node.js to dynamically generate a professional README.md file from a user's input using the NPM Inquirer package.",
+    "skills": "JavaScript, Node.js, NPM",
+    "github": "#"
+  },
+  {
+    "id": 3,
+    "name": "Password Gemerator",
+    "image": "",
+    "description": "A password generator that returns a password based on the user's selected options.",
+    "skills": "JavaScript and JQuery",
+    "github": "#"
+  },
+  {
+    "id": 4,
+    "name": "Weather Forecast App",
+    "image": "",
+    "description": "A simple app rendering the weather forecast for the next 5 days for a city input provided by the user.",
+    "skills": "JavaScript, JQuery, Open Weather forecast API, local storage",
+    "github": "#"
+  },
+  {
+    "id": 5,
+    "name": "Work Day Scheduler",
+    "image": "",
+    "description": "A simple calendar application that allows a user to save events for each hour of the day by modifying the starter code.",
+    "skills": "JavaScript, JQuery, Moment.js",
+    "github": "#"
+  },
+  {
+    "id": 6,
+    "name": "Coffee Curator",
+    "image": "",
+    "description": "An app for coffee lovers that quickly finds 5 cafés near you. App built as part of a group project which currently requires the Allow CORS Chrome extension to function.",
+    "skills": "A Pineapple Under the Sea",
+    "github": "#"
+  }
+]
