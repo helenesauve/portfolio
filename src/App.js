@@ -2,7 +2,7 @@ import React from "react";
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import ProjectCard from "./components/ProjectCard";
-import Contact from "./pages/Contact";
+import Contact from "./components/Contact";
 import Home from './pages/Home';
 import Hero from './components/Hero';
 import Footer from "./components/Footer"
