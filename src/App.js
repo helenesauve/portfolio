@@ -7,6 +7,7 @@ import Projectgallery from "./components/Projectgallery";
 import Footer from "./components/Footer";
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Wrapper from './components/Wrapper';
+// import projects from "./projects.json";
 // import logo from './logo.svg';
 // import './App.css';
 

@@ -17,22 +17,22 @@ function Navbar() {
                   isActive ? 'nav-link active' : 'nav-link'
                 }
               >
-                Contact
+                Project Gallery
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
-                to="/discover"
+                to="/projectgallery"
                 className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'
                 }
               >
-                Discover
+                Projects
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
-                to="/search"
+                to="/project"
                 className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'
                 }

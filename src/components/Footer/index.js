@@ -4,7 +4,9 @@ import React from "react";
 function Footer() {
   return (
     <footer className="footer">
-      <span>Helene Sauve 2023</span>
+  <div className="footer-copyright text-center py-3">© 2023 Copyright:
+    <a href="/"> Hélène Sauvé</a>
+  </div>
     </footer>
   );
 }
