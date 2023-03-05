@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
 import Contact from "./pages/Contact";
-import About from './pages/About';
+import Home from './pages/Home';
 import Projectgallery from "./components/Projectgallery";
 import Footer from "./components/Footer";
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
@@ -18,7 +18,7 @@ function App() {
         <Navbar />
         <Wrapper>
           <Routes>
-            <Route path="/" element={<About/>} />
+            <Route path="/" element={<Home/>} />
             <Route path="/Contact" element={<Contact/>} />
             <Route path="/projectgallery" element={<Projectgallery/>} />
             <Route path="/project" element={<Project/>} />

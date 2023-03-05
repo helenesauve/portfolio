@@ -1,9 +1,10 @@
 import React from "react";
 import { Link, NavLink } from 'react-router-dom';
+import "./style.css";
 
 function Navbar() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <Link className="navbar-brand" to="/">
           Hélène Sauvé
         </Link>
@@ -37,7 +38,7 @@ function Navbar() {
                   isActive ? 'nav-link active' : 'nav-link'
                 }
               >
-                Search
+                Contact
               </NavLink>
             </li>
           </ul>

@@ -4,7 +4,7 @@
     "name": "This website",
     "image": "",
     "description": "A professional portfolio highlighting key skills and interests.",
-    "skills": "React.js, Javascript, CSS, Bootstrap",
+    "deployed": "React.js, Javascript, CSS, Bootstrap",
     "github": "#"
   },
   {
@@ -12,7 +12,7 @@
     "name": "README Generator",
     "image": "",
     "description": "A command-line application that uses Node.js to dynamically generate a professional README.md file from a user's input using the NPM Inquirer package.",
-    "skills": "JavaScript, Node.js, NPM",
+    "deployed": "JavaScript, Node.js, NPM",
     "github": "#"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Password Gemerator",
     "image": "",
     "description": "A password generator that returns a password based on the user's selected options.",
-    "skills": "JavaScript and JQuery",
+    "deployed": "https://helenesauve.github.io/Password-Generator/",
     "github": "#"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Weather Forecast App",
     "image": "",
     "description": "A simple app rendering the weather forecast for the next 5 days for a city input provided by the user.",
-    "skills": "JavaScript, JQuery, Open Weather forecast API, local storage",
+    "deployed": "https://helenesauve.github.io/weather-dashboard/",
     "github": "#"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Work Day Scheduler",
     "image": "",
     "description": "A simple calendar application that allows a user to save events for each hour of the day by modifying the starter code.",
-    "skills": "JavaScript, JQuery, Moment.js",
+    "deployed": "https://helenesauve.github.io/work-day-scheduler/",
     "github": "#"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Coffee Curator",
     "image": "",
     "description": "An app for coffee lovers that quickly finds 5 cafés near you. App built as part of a group project which currently requires the Allow CORS Chrome extension to function.",
-    "skills": "A Pineapple Under the Sea",
+    "deployed": "https://harrygarstang.github.io/Coffee-App-Project/",
     "github": "#"
   }
 ]
