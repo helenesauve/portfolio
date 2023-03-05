@@ -3,8 +3,7 @@ import React from 'react';
 
 function About() {
     return (
-        <div>
-            <h1>Hey, I'm Hélène</h1>
+        <div className="container">
             <p>Currently upskilling for a career change. Studying
           a 16 week intense Skills Bootcamp in Front-End Web Developer with edX with a graduation end of March 2023.
           <br />

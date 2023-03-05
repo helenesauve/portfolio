@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Project from "./components/Project";
 import Contact from "./pages/Contact";
 import Home from './pages/Home';
-import Projectgallery from "./components/Projectgallery";
 import Footer from "./components/Footer";
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Wrapper from './components/Wrapper';
@@ -16,11 +16,11 @@ function App() {
     <Router>
       <div>
         <Navbar />
+        <Header />
         <Wrapper>
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/Contact" element={<Contact/>} />
-            <Route path="/projectgallery" element={<Projectgallery/>} />
             <Route path="/project" element={<Project/>} />
           </Routes>
         </Wrapper>
