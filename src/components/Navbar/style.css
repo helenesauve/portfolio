@@ -1,4 +1,7 @@
 .navbar {
     background-color: #014421;
-    color: white !important;
+}
+
+.navbar a {
+    color: white;
 }
