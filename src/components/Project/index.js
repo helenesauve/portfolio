@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+// import projects from "./projects.json";
 
 function Project(props) {
     const image = require(`../../images/${props.image}`)
@@ -17,7 +18,10 @@ function Project(props) {
             <strong>Description:</strong> {props.description}
           </li>
           <li>
-            <strong>Skills used:</strong> {props.skills}
+            <strong>Deployed link:</strong> {props.deployed}
+          </li>
+          <li>
+            <strong>Github repo:</strong> {props.github}
           </li>
         </ul>
       </div>

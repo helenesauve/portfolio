@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 function Contact() {
     // Setting the component's initial state
     const [formData, setFormData] = useState({ firstName: "", lastName: "", email: "" });
@@ -34,7 +35,7 @@ function Contact() {
     return (
       <div>
         <p>
-          Hello {formData.firstName} {formData.lastName}
+          Hey, want to link up? Fill in the form below and I'll be in touch soon.
         </p>
         <form className="form">
           <input

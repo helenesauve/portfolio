@@ -1,11 +1,10 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import Project from "./components/Project";
-import Contact from "./pages/Contact";
-import Home from './pages/Home';
-import Footer from "./components/Footer";
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from "./components/Navbar";
+import Project from "./components/Project";
+import Contact from "./pages/contact";
+import Home from './pages/home';
+import Footer from "./components/Footer"
 import Wrapper from './components/Wrapper';
 // import projects from "./projects.json";
 // import logo from './logo.svg';
@@ -16,12 +15,11 @@ function App() {
     <Router>
       <div>
         <Navbar />
-        <Header />
         <Wrapper>
           <Routes>
             <Route path="/" element={<Home/>} />
-            <Route path="/Contact" element={<Contact/>} />
-            <Route path="/project" element={<Project/>} />
+            <Route path="/projects" element={<Project/>} />
+            <Route path="/contact" element={<Contact/>} />
           </Routes>
         </Wrapper>
         <Footer />

@@ -1,9 +1,19 @@
 import React from 'react';
+import Hero from "../components/Hero";
+// import glastonbury2 from "./glastonbury2.png";
 
 
-function About() {
+
+
+function Home() {
     return (
+        <div>
+        <Hero style={{ backgroundImage: "url('./glastonbury2.png')" }}>
+        <h1>Hey, I'm Hélène</h1>
+        <h2>Front-End Web Developer based in Bristol.</h2>
+      </Hero>
         <div className="container">
+          {/* <img src={glastonbury2} /> */}
             <p>Currently upskilling for a career change. Studying
           a 16 week intense Skills Bootcamp in Front-End Web Developer with edX with a graduation end of March 2023.
           <br />
@@ -15,8 +25,9 @@ function About() {
           passion for Marcel Proust's <i>In Search of Lost Time</i>.
             </p>
         </div>
+        </div>
     )
 }
 
 
-export default About;
+export default Home;
