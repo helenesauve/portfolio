@@ -10,7 +10,7 @@ function Navbar () {
           Hélène Sauvé
         </Link>
         <div>
-          <ul className="navbar-nav">
+          <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <NavLink
                 to="/projects"

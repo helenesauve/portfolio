@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 
 function Contact() {
+    
     // Setting the component's initial state
     const [formData, setFormData] = useState({ firstName: "", lastName: "", email: "" });
   
