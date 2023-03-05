@@ -1,6 +1,7 @@
 import React from 'react';
-// import Hero from "../components/Hero";
-// import glastonbury2 from "./glastonbury2.png";
+import helene from './helene.jpeg';
+import "./style.css";
+
 
 
 
@@ -8,13 +9,9 @@ import React from 'react';
 function Home() {
     return (
         <div>
-        {/* <Hero style={{ backgroundImage: "url('./glastonbury2.png')" }}>
-        <h1>Hey, I'm Hélène</h1>
-        <h2>Front-End Web Developer based in Bristol.</h2>
-      </Hero> */}
-        <div className="container">
-          {/* <img src={glastonbury2} /> */}
-            <p>Currently upskilling for a career change. Studying
+        <div className="container flex-container">
+          <img src={helene} alt="Helene Sauve" className="flex-child-1"/>
+            <p className="flex-child-2">Currently upskilling for a career change. Studying
           a 16 week intense Skills Bootcamp in Front-End Web Developer with edX with a graduation end of March 2023.
           <br />
           <br />With more than five years experience in Marketing, working both in agency and client-side, I have mastered
