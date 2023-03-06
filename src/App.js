@@ -1,25 +1,24 @@
 import React from "react";
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from "./components/Navbar";
-import ProjectCard from "./components/ProjectCard";
 import Contact from "./components/Contact";
 import Home from './components/Home';
-import Hero from './components/Hero';
 import Footer from "./components/Footer"
 import Wrapper from './components/Wrapper';
+import ProjectList from "./pages/ProjectList"
 // import logo from './logo.svg';
 // import './App.css';
+
 
 function App() {
   return (
     <Router>
       <div>
         <Navbar />
-        <Hero />
         <Wrapper>
           <Routes>
             <Route path="/" element={<Home/>} />
-            <Route path="/projects" element={<ProjectCard/>} />
+            <Route path="/projects" element={<ProjectList/>} />
             <Route path="/contact" element={<Contact/>} />
           </Routes>
         </Wrapper>

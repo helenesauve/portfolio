@@ -1,14 +1,15 @@
 import React from 'react';
 import helene from './helene.jpeg';
 import "./style.css";
-
-
+import Hero from '../Hero';
 
 
 
 function Home() {
     return (
         <div>
+        <Hero />
+
         <div className="container flex-container">
           <img src={helene} alt="Helene Sauve" className="flex-child-1"/>
             <p className="flex-child-2">Currently upskilling for a career change. Studying

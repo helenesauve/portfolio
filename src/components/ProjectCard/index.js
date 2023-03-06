@@ -1,7 +1,11 @@
 import React from "react";
 import "./style.css";
 
-function Project(props) {
+function Project({props}) {
+  console.log("in a project")
+  console.log(props)
+
+  // var imageLink = require(props.image)
     return (
       <div className="card">
         {/* <div className="img-container">
@@ -21,6 +25,7 @@ function Project(props) {
           <li>
             <strong>Github repo:</strong> {props.github}
           </li>
+          <img src={props.image} alt="" />
         </ul>
       </div>
       </div>
