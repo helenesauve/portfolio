@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/helenesauve/react-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/helenesauve/react-portfolio/static/js/main.55c5b5aa.js",
-    "static/js/787.28cb0dcd.chunk.js": "/helenesauve/react-portfolio/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/helenesauve/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/helenesauve/react-portfolio/static/css/main.d3e3f109.css",
+    "main.js": "/helenesauve/react-portfolio/static/js/main.a9220f95.js",
+    "static/media/readme.jpg": "/helenesauve/react-portfolio/static/media/readme.ee14a4771b9aeb776e6c.jpg",
+    "static/media/glastonbury2.png": "/helenesauve/react-portfolio/static/media/glastonbury2.976eeeb670f6dcf01e58.png",
+    "static/media/coffee.png": "/helenesauve/react-portfolio/static/media/coffee.13b633c24254d2c69ad0.png",
+    "static/media/clouds.jpg": "/helenesauve/react-portfolio/static/media/clouds.d84e38aa9a6a0804b139.jpg",
+    "static/media/weather.jpg": "/helenesauve/react-portfolio/static/media/weather.21060fe7fb1e74953974.jpg",
+    "static/media/output.gif": "/helenesauve/react-portfolio/static/media/output.0d4c6e3b1b9a3852dcd5.gif",
+    "static/media/day-scheduler.png": "/helenesauve/react-portfolio/static/media/day-scheduler.38a3aa084f6f5917f3ce.png",
+    "static/media/password-generator.png": "/helenesauve/react-portfolio/static/media/password-generator.aa25cbf89939def02f6b.png",
+    "static/media/helene.jpeg": "/helenesauve/react-portfolio/static/media/helene.cbe1209c8db12c2a1e34.jpeg",
     "index.html": "/helenesauve/react-portfolio/index.html",
-    "main.073c9b0a.css.map": "/helenesauve/react-portfolio/static/css/main.073c9b0a.css.map",
-    "main.55c5b5aa.js.map": "/helenesauve/react-portfolio/static/js/main.55c5b5aa.js.map",
-    "787.28cb0dcd.chunk.js.map": "/helenesauve/react-portfolio/static/js/787.28cb0dcd.chunk.js.map"
+    "main.d3e3f109.css.map": "/helenesauve/react-portfolio/static/css/main.d3e3f109.css.map",
+    "main.a9220f95.js.map": "/helenesauve/react-portfolio/static/js/main.a9220f95.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.55c5b5aa.js"
+    "static/css/main.d3e3f109.css",
+    "static/js/main.a9220f95.js"
   ]
 }
