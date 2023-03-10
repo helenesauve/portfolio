@@ -2,49 +2,49 @@
   {
     "id": 1,
     "name": "This portfolio",
-    "image": "",
+    "image": "clouds.jpg",
     "description": "A professional portfolio highlighting key skills and interests.",
-    "deployed": "React.js, Javascript, CSS, Bootstrap",
-    "github": "#"
+    "deployed": "https://helenesauve.github.io/react-portfolio/",
+    "github": "https://github.com/helenesauve/react-portfolio"
   },
   {
     "id": 2,
     "name": "README Generator",
-    "image": "",
+    "image": "output.gif",
     "description": "A command-line application that uses Node.js to dynamically generate a professional README.md file from a user's input using the NPM Inquirer package.",
-    "deployed": "JavaScript, Node.js, NPM",
-    "github": "#"
+    "deployed": "",
+    "github": "https://github.com/helenesauve/readme-generator"
   },
   {
     "id": 3,
     "name": "Password Gemerator",
-    "image": "",
+    "image": "password-generator.png",
     "description": "A password generator that returns a password based on the user's selected options.",
     "deployed": "https://helenesauve.github.io/Password-Generator/",
-    "github": "#"
+    "github": "https://github.com/helenesauve/Password-Generator"
   },
   {
     "id": 4,
     "name": "Weather Forecast App",
-    "image": "",
+    "image": "clouds.jpg",
     "description": "A simple app rendering the weather forecast for the next 5 days for a city input provided by the user.",
     "deployed": "https://helenesauve.github.io/weather-dashboard/",
-    "github": "#"
+    "github": "https://github.com/helenesauve/weather-dashboard"
   },
   {
     "id": 5,
     "name": "Work Day Scheduler",
-    "image": "",
+    "image": "day-scheduler.png",
     "description": "A simple calendar application that allows a user to save events for each hour of the day by modifying the starter code.",
     "deployed": "https://helenesauve.github.io/work-day-scheduler/",
-    "github": "#"
+    "github": "https://github.com/helenesauve/work-day-scheduler"
   },
   {
     "id": 6,
     "name": "Coffee Curator",
-    "image": "",
+    "image": "coffee.png",
     "description": "An app for coffee lovers that quickly finds 5 cafés near you. App built as part of a group project which currently requires the Allow CORS Chrome extension to function.",
     "deployed": "https://harrygarstang.github.io/Coffee-App-Project/",
-    "github": "#"
+    "github": "https://github.com/helenesauve/Coffee-App-Project"
   }
 ]

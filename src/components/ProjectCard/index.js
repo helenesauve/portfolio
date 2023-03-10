@@ -5,12 +5,13 @@ function Project({props}) {
   console.log("in a project")
   console.log(props)
 
-  // var imageLink = require(props.image)
+  const image = require(`./${props.image}`)
     return (
+      
       <div className="card">
-        {/* <div className="img-container">
-          <img alt={props.title} src={image} />
-        </div> */}
+        <div className="img-container">
+        <img src={image} alt=""/>
+      </div>
         <div className="content">
         <ul>
           <li>
@@ -20,10 +21,10 @@ function Project({props}) {
             <strong>Description:</strong> {props.description}
           </li>
           <li>
-            <strong>Deployed link:</strong> {props.deployed}
+            <strong>Deployed link:</strong> <a href="{props.deployed}">Click here</a>
           </li>
           <li>
-            <strong>Github repo:</strong> {props.github}
+            <strong>Github repo:</strong> <a href="{props.github}">Find out more</a>
           </li>
           <img src={props.image} alt="" />
         </ul>
