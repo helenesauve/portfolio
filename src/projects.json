@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "name": "Password Gemerator",
+    "name": "Password Generator",
     "image": "password-generator.png",
     "description": "A password generator that returns a password based on the user's selected options.",
     "deployed": "https://helenesauve.github.io/Password-Generator/",

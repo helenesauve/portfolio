@@ -9,6 +9,11 @@ function Navbar () {
         <Link className="navbar-brand" to="/">
           Hélène Sauvé
         </Link>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText"></div>
         <div>
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">

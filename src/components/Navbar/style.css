@@ -5,3 +5,11 @@
 .navbar a {
     color: white;
 }
+
+.navbar-brand {
+    padding: 20px;
+}
+
+.nav-item {
+    padding: 10px;
+}
