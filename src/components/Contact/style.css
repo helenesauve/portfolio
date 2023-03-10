@@ -3,9 +3,34 @@
   }
   
   .form input {
-    display: block;
+    /* display: block; */
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100%;
   }
   
+  .submit-btn {
+    background: #009e60;
+    color: white;
+  }
+
+  .submit-btn:hover {
+    background: white;
+    color: black;
+  }
+
+  .form-data {
+    padding: 20px;
+    background-color: #89CFF0;
+    text-align: center;
+    position: relative;
+  }
+
+  .form {
+    display: inline-block;
+  }
+
+  .message {
+    height: 100px;
+  }
+

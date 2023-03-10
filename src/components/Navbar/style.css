@@ -3,12 +3,12 @@
 }
 
 .navbar a {
-    color: white;
+    color: white !important;
 }
 
 .navbar a:hover {
     background-color: white;
-    color: black;
+    color: black !important;
   }
 
 .navbar-brand {

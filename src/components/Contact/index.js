@@ -12,12 +12,16 @@ function Contact() {
       const { name, value } = event.target;
   
       if (name === "firstName") {
-        setFormData({firstName: value, lastName: formData.lastName, email: formData.email});
-      } else if (name === "lastName") { // must be the lastName field
-        setFormData({firstName: formData.firstName, lastName: value, email: formData.email});
+        setFormData({firstName: value, lastName: formData.lastName, email: formData.email, message: formData.message});
+      } 
+      else if (name === "lastName") { // must be the lastName field
+        setFormData({firstName: formData.firstName, lastName: value, email: formData.email, message: formData.message});
+      }
+      else if (name  === "email"){
+        setFormData({firstName: formData.firstName, lastName: formData.lastName, email: value, message: formData.message});
       }
       else {
-        setFormData({firstName: formData.firstName, lastName: formData.lastName, email: value});
+        setFormData({firstName: formData.firstName, lastName: formData.lastName, email: formData.email, message: value});
       }
     };
   
@@ -35,7 +39,8 @@ function Contact() {
   
     // Notice how each input has a `value`, `name`, and `onChange` prop
     return (
-      <div>
+      <div className="container form-data">
+        <h2>Contact me</h2>
         <p>
           Hey, want to link up? Fill in the form below and I'll be in touch soon.
         </p>
@@ -61,7 +66,14 @@ function Contact() {
             type="text"
             placeholder="Email address"
           />
-          <button onClick={handleFormSubmit}>Submit</button>
+           <input className="message"
+            value={formData.message}
+            name="message"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="Type here to send me a message!"
+          />
+          <button className="submit-btn" onClick={handleFormSubmit}>Submit</button>
         </form>
       </div>
     );
