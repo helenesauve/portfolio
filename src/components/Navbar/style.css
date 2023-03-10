@@ -6,6 +6,11 @@
     color: white;
 }
 
+.navbar a:hover {
+    background-color: white;
+    color: black;
+  }
+
 .navbar-brand {
     padding: 20px;
 }

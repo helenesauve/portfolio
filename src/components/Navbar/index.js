@@ -1,13 +1,14 @@
 import React from "react";
 import { Link, NavLink } from 'react-router-dom';
 import "./style.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { solid } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 
 function Navbar () {
     return (
-
       <nav className="navbar navbar-expand-lg navbar-light">
         <Link className="navbar-brand" to="/">
-          Hélène Sauvé
+        <FontAwesomeIcon icon={solid('house')} />
         </Link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
