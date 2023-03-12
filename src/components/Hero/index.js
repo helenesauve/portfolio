@@ -5,7 +5,7 @@ import background from "./glastonbury2.png";
 // import PDF from "./helene-sauve-cv.pdf";
 
 
-function Hero(props) {
+function Hero() {
   return (
     <div className="hero text-center" style={{ backgroundImage: `url(${background})` }}>
       <h1>Hey, I'm Hélène</h1>
