@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d3e3f109.css",
-    "main.js": "/react-portfolio/static/js/main.246e3d7a.js",
-    "static/media/readme.jpg": "/react-portfolio/static/media/readme.ee14a4771b9aeb776e6c.jpg",
-    "static/media/glastonbury2.png": "/react-portfolio/static/media/glastonbury2.976eeeb670f6dcf01e58.png",
-    "static/media/coffee.png": "/react-portfolio/static/media/coffee.13b633c24254d2c69ad0.png",
-    "static/media/clouds.jpg": "/react-portfolio/static/media/clouds.d84e38aa9a6a0804b139.jpg",
-    "static/media/weather.jpg": "/react-portfolio/static/media/weather.21060fe7fb1e74953974.jpg",
-    "static/media/output.gif": "/react-portfolio/static/media/output.0d4c6e3b1b9a3852dcd5.gif",
-    "static/media/day-scheduler.png": "/react-portfolio/static/media/day-scheduler.38a3aa084f6f5917f3ce.png",
-    "static/media/password-generator.png": "/react-portfolio/static/media/password-generator.aa25cbf89939def02f6b.png",
-    "static/media/helene.jpeg": "/react-portfolio/static/media/helene.cbe1209c8db12c2a1e34.jpeg",
-    "index.html": "/react-portfolio/index.html",
-    "main.d3e3f109.css.map": "/react-portfolio/static/css/main.d3e3f109.css.map",
-    "main.246e3d7a.js.map": "/react-portfolio/static/js/main.246e3d7a.js.map"
+    "main.css": "/portfolio/static/css/main.d3e3f109.css",
+    "main.js": "/portfolio/static/js/main.424b5fc3.js",
+    "static/media/readme.jpg": "/portfolio/static/media/readme.ee14a4771b9aeb776e6c.jpg",
+    "static/media/glastonbury2.png": "/portfolio/static/media/glastonbury2.976eeeb670f6dcf01e58.png",
+    "static/media/coffee.png": "/portfolio/static/media/coffee.13b633c24254d2c69ad0.png",
+    "static/media/clouds.jpg": "/portfolio/static/media/clouds.d84e38aa9a6a0804b139.jpg",
+    "static/media/weather.jpg": "/portfolio/static/media/weather.21060fe7fb1e74953974.jpg",
+    "static/media/output.gif": "/portfolio/static/media/output.0d4c6e3b1b9a3852dcd5.gif",
+    "static/media/day-scheduler.png": "/portfolio/static/media/day-scheduler.38a3aa084f6f5917f3ce.png",
+    "static/media/password-generator.png": "/portfolio/static/media/password-generator.aa25cbf89939def02f6b.png",
+    "static/media/helene.jpeg": "/portfolio/static/media/helene.cbe1209c8db12c2a1e34.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.d3e3f109.css.map": "/portfolio/static/css/main.d3e3f109.css.map",
+    "main.424b5fc3.js.map": "/portfolio/static/js/main.424b5fc3.js.map"
   },
   "entrypoints": [
     "static/css/main.d3e3f109.css",
-    "static/js/main.246e3d7a.js"
+    "static/js/main.424b5fc3.js"
   ]
 }
