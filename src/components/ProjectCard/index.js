@@ -22,9 +22,9 @@ function Project({props}) {
             <strong>Description:</strong> {props.description}
           </li>
           <li>
-            <strong>Deployed link:</strong> <a href="{props.deployed}">Click here</a>
+            <strong>Deployed link:</strong> <a href={props.deployed}>Click here</a>
           </li>
-          <a href="{props.github}" target="_blank" rel="noreferrer" class="btn repo-bt mt-auto">Github repository</a>
+          <a href={props.github} target="_blank" rel="noreferrer" class="btn repo-bt mt-auto">Github repository</a>
           <img src={props.image} alt=""/>
         </ul>
       </div>
