@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 
+
 function Project({props}) {
   console.log("in a project")
   console.log(props)
