@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "This portfolio",
-    "image": "clouds.jpg",
+    "image": "portfolio.png",
     "description": "A professional portfolio highlighting key skills and interests.",
     "deployed": "https://helenesauve.github.io/react-portfolio/",
     "github": "https://github.com/helenesauve/react-portfolio"
@@ -12,7 +12,7 @@
     "name": "README Generator",
     "image": "output.gif",
     "description": "A command-line application that uses Node.js to dynamically generate a professional README.md file from a user's input using the NPM Inquirer package.",
-    "deployed": "",
+    "deployed": "https://github.com/helenesauve/readme-generator",
     "github": "https://github.com/helenesauve/readme-generator"
   },
   {

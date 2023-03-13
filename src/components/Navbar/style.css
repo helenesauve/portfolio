@@ -18,3 +18,7 @@
 .nav-item {
     padding: 10px;
 }
+
+.navbar-toggler-icon {
+    color: white !important;
+}

@@ -3,6 +3,10 @@ import { Link, NavLink } from 'react-router-dom';
 import "./style.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
+// Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css";
+// Bootstrap Bundle JS
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 function Navbar () {
     return (
@@ -10,11 +14,11 @@ function Navbar () {
         <Link className="navbar-brand" to="/">
         <FontAwesomeIcon icon={solid('house')} />
         </Link>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span className="navbar-toggler-icon navbar-dark"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarText"></div>
+      <div className="collapse navbar-collapse" id="navbarText">
         <div>
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
@@ -39,6 +43,7 @@ function Navbar () {
                 </NavLink>
             </li>
           </ul>
+        </div>
         </div>
       </nav>
     );
