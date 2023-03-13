@@ -3,10 +3,6 @@ import { Link, NavLink } from 'react-router-dom';
 import "./style.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
-// Bootstrap CSS
-import "bootstrap/dist/css/bootstrap.min.css";
-// Bootstrap Bundle JS
-import "bootstrap/dist/js/bootstrap.bundle.min";
 
 function Navbar () {
     return (
@@ -40,6 +36,16 @@ function Navbar () {
                 }
               >
                 Contact
+                </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to="/resume"
+                className={({ isActive }) =>
+                  isActive ? 'nav-link active' : 'nav-link'
+                }
+              >
+                CV
                 </NavLink>
             </li>
           </ul>
