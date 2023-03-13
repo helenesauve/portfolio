@@ -3,7 +3,7 @@
     "id": 1,
     "name": "This portfolio",
     "image": "portfolio.png",
-    "description": "A professional portfolio highlighting key skills and interests.",
+    "description": "A professional portfolio highlighting key skills gained during the Trilogy's Skills bootcamp.",
     "deployed": "https://helenesauve.github.io/react-portfolio/",
     "github": "https://github.com/helenesauve/react-portfolio"
   },

@@ -15,7 +15,7 @@ function Hero() {
       strings={[ 
             "Front-End Web Developer based in Bristol.",
           ]}
-          typeSpeed={70}
+          typeSpeed={60}
         />
       <div className="button-list">
       <a className="btn home-bt" href="https://github.com/helenesauve" target="_blank" rel="noreferrer">Github</a>

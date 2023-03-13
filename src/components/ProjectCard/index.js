@@ -2,18 +2,17 @@ import React from "react";
 import "./style.css";
 
 
-function Project({props}) {
-  console.log("in a project")
-  console.log(props)
 
-  const image = require(`./${props.image}`)
-    return (
-      
-      <div className="card">
-        <div className="img-container">
-        <img src={image} alt=""/>
+function Project({ props }) {
+  console.log(props);
+
+  const image = require(`./${props.image}`);
+  return (
+    <div className="card h-100">
+      <div className="img-container">
+        <img src={image} alt="" />
       </div>
-        <div className="content">
+      <div className="content">
         <ul>
           <li>
             <strong>Name:</strong> {props.name}
@@ -22,15 +21,22 @@ function Project({props}) {
             <strong>Description:</strong> {props.description}
           </li>
           <li>
-            <strong>Deployed link:</strong> <a href={props.deployed}>Click here</a>
+            <strong>Deployed link:</strong>{" "}
+            <a href={props.deployed}>Click here</a>
           </li>
-          <a href={props.github} target="_blank" rel="noreferrer" class="btn repo-bt mt-auto">Github repository</a>
-          <img src={props.image} alt=""/>
+          <a
+            href={props.github}
+            target="_blank"
+            rel="noreferrer"
+            class="btn repo-bt mt-auto"
+          >
+            Github repository
+          </a>
+          <img src={props.image} alt="" />
         </ul>
       </div>
-      </div>
-    
-    );
+    </div>
+  );
 }
 
 export default Project;
