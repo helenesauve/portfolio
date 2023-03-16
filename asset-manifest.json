@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.54356139.css",
-    "main.js": "/portfolio/static/js/main.319c9df5.js",
+    "main.css": "/portfolio/static/css/main.f41c762f.css",
+    "main.js": "/portfolio/static/js/main.bee8e7b7.js",
     "static/media/readme.jpg": "/portfolio/static/media/readme.ee14a4771b9aeb776e6c.jpg",
     "static/media/glastonbury2.png": "/portfolio/static/media/glastonbury2.976eeeb670f6dcf01e58.png",
     "static/media/coffee.png": "/portfolio/static/media/coffee.13b633c24254d2c69ad0.png",
@@ -10,15 +10,15 @@
     "static/media/weather.jpg": "/portfolio/static/media/weather.21060fe7fb1e74953974.jpg",
     "static/media/output.gif": "/portfolio/static/media/output.0d4c6e3b1b9a3852dcd5.gif",
     "static/media/day-scheduler.png": "/portfolio/static/media/day-scheduler.38a3aa084f6f5917f3ce.png",
-    "static/media/helene-sauve-cv.pdf": "/portfolio/static/media/helene-sauve-cv.0f6edd2c92615cb4e17a.pdf",
+    "static/media/helene-sauve-cv.pdf": "/portfolio/static/media/helene-sauve-cv.1aedccfc7b66a21bd788.pdf",
     "static/media/password-generator.png": "/portfolio/static/media/password-generator.aa25cbf89939def02f6b.png",
     "static/media/helene.jpeg": "/portfolio/static/media/helene.cbe1209c8db12c2a1e34.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.54356139.css.map": "/portfolio/static/css/main.54356139.css.map",
-    "main.319c9df5.js.map": "/portfolio/static/js/main.319c9df5.js.map"
+    "main.f41c762f.css.map": "/portfolio/static/css/main.f41c762f.css.map",
+    "main.bee8e7b7.js.map": "/portfolio/static/js/main.bee8e7b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.54356139.css",
-    "static/js/main.319c9df5.js"
+    "static/css/main.f41c762f.css",
+    "static/js/main.bee8e7b7.js"
   ]
 }
