@@ -3,14 +3,14 @@
     "id": 1,
     "name": "This portfolio",
     "image": "portfolio.png",
-    "description": "A professional portfolio highlighting key skills gained during the Trilogy's Skills bootcamp.",
+    "description": "A portfolio highlighting key skills gained during the Skills bootcamp.",
     "deployed": "https://helenesauve.github.io/react-portfolio/",
     "github": "https://github.com/helenesauve/react-portfolio"
   },
   {
     "id": 2,
     "name": "README Generator",
-    "image": "output.gif",
+    "image": "readme-img.jpg",
     "description": "A command-line application that uses Node.js to generate a README.md file.",
     "deployed": "https://github.com/helenesauve/readme-generator",
     "github": "https://github.com/helenesauve/readme-generator"
@@ -43,7 +43,7 @@
     "id": 6,
     "name": "Coffee Curator",
     "image": "coffee.png",
-    "description": "An app for coffee lovers that quickly finds 5 cafés near you. App built as part of a group project which currently requires the Allow CORS Chrome extension to function.",
+    "description": "An app for coffee lovers that quickly finds 5 cafés near you. App built as part of a group project.",
     "deployed": "https://harrygarstang.github.io/Coffee-App-Project/",
     "github": "https://github.com/helenesauve/Coffee-App-Project"
   }

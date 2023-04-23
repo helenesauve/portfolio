@@ -21,8 +21,8 @@ function Hero() {
           typeSpeed={60}
         /> 
       <div className="button-list">
-      <a className="btn home-bt" href="https://github.com/helenesauve" target="_blank" rel="noreferrer"><img src={github} alt="github" class="button-hero" /></a>
-      <a className="btn home-bt" href="https://www.linkedin.com/in/h%C3%A9l%C3%A8ne-sauv%C3%A9-b572a9117/" target="_blank" rel="noreferrer"><img src={linkedin} alt="linkedin" class="button-hero" /></a>
+      <a className="btn home-bt grow" href="https://github.com/helenesauve" target="_blank" rel="noreferrer"><img src={github} alt="github" class="button-hero" /></a>
+      <a className="btn home-bt grow" href="https://www.linkedin.com/in/h%C3%A9l%C3%A8ne-sauv%C3%A9-b572a9117/" target="_blank" rel="noreferrer"><img src={linkedin} alt="linkedin" class="button-hero" /></a>
       </div>
     </div>
     

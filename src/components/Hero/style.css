@@ -1,48 +1,45 @@
 .hero {
-    height: 500px;
-    background-image: "glastonbury2.png";
-    background-size: cover;
-    background-position: center;
-    position: relative;
-  }
-  
-  .hero::after {
-    content: "";
-    display: block;
-    opacity: .4;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: black;
-  }
-  
-  .hero * {
-    position: relative;
-    z-index: 2;
-  }
-  
-  .hero h1, .hero h2 {
-    color: white;
-  }
-  
-  .hero h1 {
-    font-size: 60px;
-    padding-top: 140px;
-    margin-top: 0;
-  }
+  height: 500px;
+  background-image: "glastonbury2.png";
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+}
+
+.hero * {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1,
+.hero h2 {
+  color: white;
+}
+
+.hero h1 {
+  font-size: 60px;
+  padding-top: 140px;
+  margin-top: 0;
+}
 
 .home-bt {
-  background-color: #FBCEB1 !important;
-  padding: 5px;
+  background-color: #fbceb1 !important;
   border: 2px solid black !important;
   margin: 2px !important;
   color: black;
-}
-
-.home-bt:hover {
-  background-color: white !important;
+  border-radius: 20%;
 }
 
 .type-text {
@@ -50,6 +47,15 @@
 }
 
 .button-hero {
-  height: 20px;
-  width: 40px;
+  height: 20px !important;
+  width: 40px !important;
+}
+
+/* expand the buttons */
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
 }
