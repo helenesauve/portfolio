@@ -1,5 +1,5 @@
 img {
-    height: 250px;
+    height: 300px;
     width: auto;
     margin: 10px;
 }
@@ -10,6 +10,7 @@ img {
   
   .flex-child-1 {
     flex: 1;
+    border-radius: 50%;
   }
   
   .flex-child-2 {

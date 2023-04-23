@@ -34,13 +34,22 @@
   }
 
 .home-bt {
-  background-color: #009e60 !important;
+  background-color: #FBCEB1 !important;
   padding: 5px;
   border: 2px solid black !important;
   margin: 2px !important;
-  color: white !important;
+  color: black;
+}
+
+.home-bt:hover {
+  background-color: white !important;
 }
 
 .type-text {
   color: white;
+}
+
+.button-hero {
+  height: 20px;
+  width: 40px;
 }

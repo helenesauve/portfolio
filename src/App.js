@@ -8,7 +8,7 @@ import Wrapper from './components/Wrapper';
 import ProjectList from "./pages/ProjectList"
 import Resume from "./components/Resume";
 // import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 
 
 function App() {

@@ -11,7 +11,7 @@
     "id": 2,
     "name": "README Generator",
     "image": "output.gif",
-    "description": "A command-line application that uses Node.js to dynamically generate a professional README.md file from a user's input using the NPM Inquirer package.",
+    "description": "A command-line application that uses Node.js to generate a README.md file.",
     "deployed": "https://github.com/helenesauve/readme-generator",
     "github": "https://github.com/helenesauve/readme-generator"
   },

@@ -1,13 +1,17 @@
 .navbar {
-    background-color: #014421;
+    background-color: white;
 }
 
 .navbar a {
-    color: white !important;
+    color: black;
 }
 
+.navbar-brand {
+    font-family: 'Inconsolata', monospace;
+}
 .navbar a:hover {
-    background-color: white;
+    text-decoration: underline dotted;
+    border-radius: 20%;
     color: black !important;
   }
 
